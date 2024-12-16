@@ -42,10 +42,11 @@ const Hero = () => {
                             quality="100"
                             priority
                             className="object-contain"
+                            alt=""
                         />
                     </div>
                     {/* arrow shape */}
-                    <div className="hidden xl:flex absolute top-48 left-[4vw]">
+                    <div className="hidden xl:flex absolute top-40 left-[7vw]">
                         <Image 
                             src="/assets/hero/arrow.svg"
                             width={160}
